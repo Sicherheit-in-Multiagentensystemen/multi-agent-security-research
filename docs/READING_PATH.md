@@ -11,4 +11,6 @@
 
 每篇先完成摘要级阅读卡片，优先对与选题直接相关的文章全文精读。论文的年份和发表状态在目录中逐篇查看，尤其注意近期预印本。
 
+**串谋审计专题**：在第 2–4 阶段加入 Colosseum（P25），先读[论文卡片](../papers/notes/P25-colosseum.md)，再使用[审计框架](../frameworks/COLOSSEUM_AUDIT.md)对齐对话判分、行动 regret、联盟优势与公共目标损失。建议产出一份区分纸面串谋和实际行动的实验方案。
+
 如果选择 MARL 或机器人方向，可先读 Adversarial Policies（P19）、Stochastic Adversary MARL（P20）与 IBGP（P10），再决定哪些 LLM 代理问题具有可比的威胁模型。HPTSA（P24）可作为多智能体安全任务能力的旁支阅读。

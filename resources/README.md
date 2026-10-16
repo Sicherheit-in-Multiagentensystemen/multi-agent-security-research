@@ -1,6 +1,6 @@
 # 资料、协议与开源基准
 
-核验日期：2026-10-16。以下 12 项来自官方来源。链接可用不等于代码已运行、许可证已审计或系统具备完整防御；开始实验前应固定提交、版本和依赖。
+核验日期：2026-10-16。以下 13 项来自官方来源。链接可用不等于代码已运行、许可证已审计或系统具备完整防御；开始实验前应固定提交、版本和依赖。
 
 ## 官方指南与协议
 
@@ -23,5 +23,6 @@
 | [Agent Security Bench](https://github.com/agiresearch/ASB) | P14 | 比较多个攻击面和防御类型 | 场景、指标和代码版本需要同时锁定 |
 | [CaMeL](https://github.com/google-research/camel-prompt-injection) | P16 | 理解控制/数据流分离与权限策略 | 不同于 CAMEL 多代理协作框架；组合安全需独立分析 |
 | [HPTSA](https://github.com/uiuc-kang-lab/HPTSA) | P24 | 分析团队规划与安全任务能力 | 安全应用资料，与保护 MAS 的防御证据分开存放 |
+| [Colosseum](https://github.com/umass-ai-safety/colosseum) | P25 | 联合审计串谋对话与实际联盟行动 | 记录论文 v2 与代码提交，区分原始/归一化指标；配套[审计框架](../frameworks/COLOSSEUM_AUDIT.md) |
 
 本组织当前没有运行上述项目，也没有已完成的安全实验。实验状态以[文献目录](../papers/catalog.json)和后续实验记录为准。

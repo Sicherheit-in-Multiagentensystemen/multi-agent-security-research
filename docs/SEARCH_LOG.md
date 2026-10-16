@@ -42,3 +42,12 @@
 ## 下轮更新需要补充
 
 串谋与隐蔽通信、Sybil 与声誉攻击、隐私泄漏与推断、具身 MAS 的物理安全、A2A/MCP 的实证攻击防御、负结果与独立复现。下一轮须保存更完整的候选条目和排除原因，才能支持系统综述级别的覆盖声明。
+
+## 补充记录：Colosseum（P25）
+
+2026-10-16 按用户指定标题检索并纳入第 25 篇：[Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems](https://arxiv.org/abs/2602.15198v2)。归入 `direct-mas`，新增串谋、联盟与行为审计专题。
+
+- 论文固定为 v2（2026-05-27），核查 §3–5 的任务、指标与对照，以及 §6 的适用范围。
+- 核查[官方项目](https://github.com/umass-ai-safety/colosseum) README 和目录，记录提交 `b077fe7e2f10566e92156cc12e06ffb2aac54790`；未审查完整实现或运行实验。
+- 官方 README 与[作者页面](https://saswatdas.com/publication/colosseum/)注明 NeurIPS 2026 Evaluations and Datasets Track 录用。此信息按“官方项目/作者注明录用”记录，区别于正式出版页核验；BibTeX 引用 arXiv v2。
+- 增加[阅读卡片](../papers/notes/P25-colosseum.md)、[审计框架](../frameworks/COLOSSEUM_AUDIT.md)和[实验模板](../templates/COLLUSION_AUDIT.md)。框架中的新增对照与判定建议属于本组织研究设计，尚未验证。

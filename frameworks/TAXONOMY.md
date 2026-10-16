@@ -21,7 +21,7 @@
 | `availability` | 循环、递归和通信阻塞如何消耗资源？ | P04 |
 | `memory-poisoning` | 记忆写入和后续检索如何改变行为？ | P15 |
 | `identity-delegation` | 权限和来源能否跨代理边界保留？ | P07、P16；A2A、MCP 指南 |
-| `collusion-coordination` | 参与方的局部行为如何导致集体风险？ | P01；仍需补充专门实证文献 |
+| `collusion-coordination` | 联盟的通信与行动如何偏离公共目标？ | P01、P25；[Colosseum 审计框架](COLOSSEUM_AUDIT.md) |
 | `robust-topology` | 通信结构如何影响攻击与防御？ | P06、P10、P11 |
 | `security-utility` | 防御对正常协作造成什么损失？ | P05、P07 |
 | `evaluation-validity` | 成功判据、环境和表示方式是否扭曲结论？ | P09、P12–P14、P18 |

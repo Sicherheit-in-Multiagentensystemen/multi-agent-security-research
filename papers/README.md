@@ -1,8 +1,8 @@
 # 分类文献库
 
-首批 24 篇；核验日期：2026-10-16。每条保留原始来源、范围标签、阅读问题和适用边界。按主题分组，同一论文只出现一个主条目；跨主题关系见证据矩阵。
+当前 25 篇；核验日期：2026-10-16。每条保留原始来源、范围标签、阅读问题和适用边界。按主题分组，同一论文只出现一个主条目；跨主题关系见证据矩阵。
 
-**证据状态：所有条目均为元数据与摘要级核查，未在本组织复现。** 明确核验发表的条目标明会议/期刊，其余 arXiv 条目不推断正式发表状态。作者结果与整理者的延伸问题分开理解。
+**证据状态：全部条目至少完成元数据与摘要核查，均未在本组织复现。** P25 另核对方法、指标、局限及官方项目说明。明确核验发表的条目标明会议/期刊；官方项目/作者的录用声明与正式出版核验分开标记，其余 arXiv 条目不推断发表状态。作者结果与整理者的延伸问题分开理解。
 
 [证据矩阵](EVIDENCE_MATRIX.md) · [BibTeX](references.bib) · [JSON](catalog.json) · [起步笔记](notes/README.md) · [检索记录](../docs/SEARCH_LOG.md)
 
@@ -34,6 +34,7 @@
 | [P22](#p22) | Krum | 2017 | 分布式基础 | 已核验发表 |
 | [P23](#p23) | Trustworthy Agentic AI Survey | 2026 | 通用/单 agent 可迁移 | arXiv；正式发表状态未核验 |
 | [P24](#p24) | HPTSA | 2026 | 安全应用 | 已核验发表 |
+| [P25](#p25) | Colosseum | 2026 | 直接 MAS | 官方项目/作者注明录用；正式出版页未核验 |
 
 ## 研究地图与综述
 
@@ -134,6 +135,20 @@
 - 阅读问题（整理者）：共享记忆会把单个代理的污染扩大到多少下游代理？
 - 边界提示：共享记忆传播是本仓库提出的延伸问题，不是该论文已证明的普遍结论。
 - 链接：[原始来源](https://arxiv.org/abs/2407.12784)。
+
+## 串谋、联盟与行为审计
+
+<a id="p25"></a>
+
+### P25 · Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems
+
+- 作者：Mason Nakamura; Abhinav Kumar; Saswat Das; Sahar Abdelnabi; Saaduddin Mahmud; Ferdinando Fioretto; Shlomo Zilberstein; Eugene Bagdasarian。年份：2026。
+- 来源/状态：arXiv；官方项目与作者页注明 NeurIPS 2026 Evaluations and Datasets Track 录用，正式出版页未核验；官方项目/作者注明录用；正式出版页未核验；记录版本 [v2](https://arxiv.org/abs/2602.15198v2)。
+- 范围：`direct-mas`；方法：DCOP 行为审计与双通道证据。
+- 内容：以可验证的协作任务审计串谋，结合通信判分与行动层 regret，区分实际串谋、隐蔽串谋和只停留在对话中的串谋。
+- 阅读问题（整理者）：加入私有通道后，通信中的串谋迹象是否对应实际联盟优势，且能排除正常任务能力与通信预算差异？
+- 边界提示：私有通道是受控审计干预；收益差距不单独证明串谋意图。DCOP、短时任务和主要同模型团队的结果需限定外推范围。
+- 链接：[原始来源](https://arxiv.org/abs/2602.15198) · [官方代码](https://github.com/umass-ai-safety/colosseum) · [初步笔记](notes/P25-colosseum.md) · [审计框架](../frameworks/COLOSSEUM_AUDIT.md)。
 
 ## 防御、组合安全与协作代价
 

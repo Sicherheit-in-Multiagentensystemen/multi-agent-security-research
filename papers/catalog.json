@@ -794,5 +794,52 @@
     "review_status": "metadata-and-abstract-checked",
     "reproduction_status": "not-reproduced",
     "publication_status_label": "已核验发表"
+  },
+  {
+    "id": "P25",
+    "arxiv": "2602.15198",
+    "group": "collusion",
+    "scope": "direct-mas",
+    "short": "Colosseum",
+    "title": "Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems",
+    "authors": [
+      "Mason Nakamura",
+      "Abhinav Kumar",
+      "Saswat Das",
+      "Sahar Abdelnabi",
+      "Saaduddin Mahmud",
+      "Ferdinando Fioretto",
+      "Shlomo Zilberstein",
+      "Eugene Bagdasarian"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.15198",
+    "version": "v2",
+    "doi": "10.48550/arXiv.2602.15198",
+    "status": "accepted-author-reported",
+    "venue": "arXiv；官方项目与作者页注明 NeurIPS 2026 Evaluations and Datasets Track 录用，正式出版页未核验",
+    "summary": "以可验证的协作任务审计串谋，结合通信判分与行动层 regret，区分实际串谋、隐蔽串谋和只停留在对话中的串谋。",
+    "question": "加入私有通道后，通信中的串谋迹象是否对应实际联盟优势，且能排除正常任务能力与通信预算差异？",
+    "limit": "私有通道是受控审计干预；收益差距不单独证明串谋意图。DCOP、短时任务和主要同模型团队的结果需限定外推范围。",
+    "surface": "私有通信、联盟目标与行动结果",
+    "method": "DCOP 行为审计与双通道证据",
+    "priority": "core",
+    "code": "https://github.com/umass-ai-safety/colosseum",
+    "code_commit": "b077fe7e2f10566e92156cc12e06ffb2aac54790",
+    "note_path": "notes/P25-colosseum.md",
+    "framework_path": "../frameworks/COLOSSEUM_AUDIT.md",
+    "checked_on": "2026-10-16",
+    "review_status": "metadata-and-abstract-checked",
+    "additional_checks": [
+      "v2-methods-metrics-and-limitations",
+      "official-repository-readme"
+    ],
+    "reproduction_status": "not-reproduced",
+    "publication_evidence": [
+      "https://github.com/umass-ai-safety/colosseum/blob/b077fe7e2f10566e92156cc12e06ffb2aac54790/README.md",
+      "https://saswatdas.com/publication/colosseum/"
+    ],
+    "version_url": "https://arxiv.org/abs/2602.15198v2",
+    "publication_status_label": "官方项目/作者注明录用；正式出版页未核验"
   }
 ]

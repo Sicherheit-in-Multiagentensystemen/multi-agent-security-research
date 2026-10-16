@@ -43,3 +43,7 @@
 - 不混合不同论文、版本、模型和预算下的 ASR 做排名。
 
 设计参考 [AgentDojo](https://arxiv.org/abs/2406.13352)、[InjecAgent](https://arxiv.org/abs/2403.02691)、[Security Tax](https://arxiv.org/abs/2502.19145)、[定量评测方法](https://arxiv.org/abs/2507.21146)和 [Representation Sensitivity](https://arxiv.org/abs/2610.03585)。具体记录使用[实验模板](../templates/EXPERIMENT.md)。
+
+## 串谋审计专题
+
+对合作团队中的联盟行为，另参照[Colosseum 审计框架](COLOSSEUM_AUDIT.md)：同时记录通信证据、实际行动、公共目标损失与联盟优势，并区分精确最优解和正常运行参照。使用[串谋审计模板](../templates/COLLUSION_AUDIT.md)登记通道干预、目标干预及预算匹配对照。P25 尚未在本组织复现。
